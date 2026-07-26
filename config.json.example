@@ -1,0 +1,12 @@
+{
+  "timeout": 30000,
+  "retry": { "maxRetries": 3, "minTimeout": 1000, "maxTimeout": 10000 },
+  "rateLimit": { "maxRequestsPerMinute": 30, "maxConcurrent": 5 },
+  "logging": { "level": "info", "format": "text" },
+  "cache": { "enabled": true, "ttlMs": 60000, "maxSize": 100 },
+  "defaultOwner": "your-org",
+  "defaultRepo": "your-repo",
+  "organization": "your-org",
+  "workspace": "/path/to/workspace",
+  "cloneDir": "./repos"
+}
